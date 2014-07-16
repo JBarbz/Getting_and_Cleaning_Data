@@ -1,0 +1,15 @@
+data <- read.table("./data_with_means.txt")
+> data[1:12, 1:5]
+   subject          activity tBodyAccMeanX tBodyAccMeanY tBodyAccMeanZ
+1        1           walking     0.2773308  -0.017383819    -0.1111481
+2        1   walkingUpstairs     0.2554617  -0.023953149    -0.0973020
+3        1 walkingDownstairs     0.2891883  -0.009918505    -0.1075662
+4        1           sitting     0.2612376  -0.001308288    -0.1045442
+5        1          standing     0.2789176  -0.016137590    -0.1106018
+6        1            laying     0.2215982  -0.040513953    -0.1132036
+7        2           walking     0.2764266  -0.018594920    -0.1055004
+8        2   walkingUpstairs     0.2471648  -0.021412113    -0.1525139
+9        2 walkingDownstairs     0.2776153  -0.022661416    -0.1168129
+10       2           sitting     0.2770874  -0.015687994    -0.1092183
+11       2          standing     0.2779115  -0.018420827    -0.1059085
+12       2            laying     0.2813734  -0.018158740    -0.1072456
